@@ -4,6 +4,7 @@ import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
+import SplashScreen from './src/screens/SplashScreen';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -13,9 +14,8 @@ function App() {
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={{
         flex: 1,
-        backgroundColor: 'red'
       }}>
-
+        <SplashScreen />
       </View>
     </SafeAreaProvider>
   );

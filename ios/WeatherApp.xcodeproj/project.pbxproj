@@ -24,6 +24,13 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-WeatherApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = WeatherApp/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WeatherApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0F2EC542E802F3B00CEF862 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/@react-native-vector-icons/ant-design/fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		E0F2EC562E802F4B00CEF862 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/@react-native-vector-icons/feather/fonts/Feather.ttf"; sourceTree = "<group>"; };
+		E0F2EC582E802F5B00CEF862 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = "../node_modules/@react-native-vector-icons/fontawesome6/fonts/FontAwesome6_Solid.ttf"; sourceTree = "<group>"; };
+		E0F2EC592E802F5B00CEF862 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = "../node_modules/@react-native-vector-icons/fontawesome6/fonts/FontAwesome6_Regular.ttf"; sourceTree = "<group>"; };
+		E0F2EC5A2E802F5B00CEF862 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = "../node_modules/@react-native-vector-icons/fontawesome6/fonts/FontAwesome6_Brands.ttf"; sourceTree = "<group>"; };
+		E0F2EC5E2E802F6900CEF862 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/@react-native-vector-icons/ionicons/fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		E0F2EC602E802F8200CEF862 /* MaterialDesignIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialDesignIcons.ttf; path = "../node_modules/@react-native-vector-icons/material-design-icons/fonts/MaterialDesignIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -70,6 +77,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				E0F2EC602E802F8200CEF862 /* MaterialDesignIcons.ttf */,
+				E0F2EC5E2E802F6900CEF862 /* Ionicons.ttf */,
+				E0F2EC5A2E802F5B00CEF862 /* FontAwesome6_Brands.ttf */,
+				E0F2EC592E802F5B00CEF862 /* FontAwesome6_Regular.ttf */,
+				E0F2EC582E802F5B00CEF862 /* FontAwesome6_Solid.ttf */,
+				E0F2EC562E802F4B00CEF862 /* Feather.ttf */,
+				E0F2EC542E802F3B00CEF862 /* AntDesign.ttf */,
 				13B07FAE1A68108700A75B9A /* WeatherApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -191,9 +205,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -230,9 +248,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WeatherApp/Pods-WeatherApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
