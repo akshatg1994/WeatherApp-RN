@@ -1,0 +1,3 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace ios/WeatherApp.xcworkspace -scheme WeatherApp -configuration Debug -destination id=13855A12-3400-4844-B34D-ABF067AA4760 -UseNewBuildSystem=YES
+
